@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
+import site
 
+site.ENABLE_USER_SITE = True
 setup(
     name='infinibatch',
     version='0.1.0',
